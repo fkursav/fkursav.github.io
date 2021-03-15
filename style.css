@@ -1,0 +1,30 @@
+body{
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 50px;
+}
+
+ul{
+	list-style: square;
+}
+ul>li{
+	font-weight: bold;
+	text-align: left;
+	
+}
+
+
+.sinif{
+	background-color: #ADD8E6;
+}
+
+div{
+	border:2px solid red;
+	background-color: #95d5b2;
+	display: inline-block;
+	padding:20px;
+}
+
+a{
+	color: green;
+}
