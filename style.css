@@ -1,6 +1,7 @@
 ﻿body {
     background-color: #72909C;
     margin: auto;
+    font-family: 'Montserrat', sans-serif;
 }
 
 article{
@@ -76,7 +77,8 @@ p.kutu {
 }
 
 .arama{
-
+    position: sticky;
+    top: 0;
 }
 
 p {

@@ -4,8 +4,31 @@
     <title>Marmara</title>
     <link href="style.css" rel="stylesheet" />
     <meta charset="utf-8" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5V67344DS1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-5V67344DS1');
+    </script>
+    <script>
+    function Hosgeldiniz() {
+        alert("Siteye Hoşgeldiniz!");
+    }
+    function EsyaKayip(){
+        window.location='esyakayip.html';
+    }
+
+    function EsyaBulundu(){
+        window.location='esyabulundu.html';
+    }
+    </script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
-<body>
+
+<body onload="Hosgeldiniz()">
     <article>
         <header>
             <div class="logo">
@@ -24,7 +47,7 @@
             
             <hr />
             <div class="konteyner">
-                <div class="kolon"><button class="tus"><img src="https://www.pngkey.com/png/full/286-2867695_scrat-ice-age-png.png" width="40%" height="auto" /><span>Eşya Kaybettim</span></button></div>
+                <div class="kolon"><button class="tus" onclick="EsyaKayip()"><img src="https://www.pngkey.com/png/full/286-2867695_scrat-ice-age-png.png" width="40%" height="auto" /><span>Eşya Kaybettim</span></button></div>
                 <div class="kolon"><button class="tus"><img src="img/muge.png" width="65%" height="auto" /><span>Eşya Buldum</span></button></div>
             </div>
         </section>
@@ -35,4 +58,6 @@
         </footer>
     </article>
 </body>
+
+
 </html>
